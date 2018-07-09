@@ -1,0 +1,26 @@
+
+#navbar {
+  nav {
+    transition-property: background-color;
+    transition-duration: 0.5s;
+
+    .nav-link {
+      cursor: pointer;
+    }
+
+    .nav-link.active {
+      color: #f7f7f7;
+    }
+  }
+
+  .navbar-transparent .navbar-nav .nav-link {
+    transition-property: color;
+    transition-duration: 0.5s;
+    color: white;
+  }
+
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+}
