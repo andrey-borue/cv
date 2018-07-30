@@ -89,7 +89,9 @@ export default class HomeNavbar extends React.Component {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/components/">Skills</NavLink>
+                  <Link activeClass="active" className="nav-link" offset={-50} to="experience" spy={true} smooth={true} duration={500} hashSpy={true} >
+                    Experience
+                  </Link>
                 </NavItem>
               </Nav>
               <Nav className="" navbar>

@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/home/Home';
 import Navbar from './components/navbar/Navbar';
 import About from './components/about/About';
+import Experience from './components/experience/Experience';
 
 // import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import { Element } from 'react-scroll'
@@ -23,8 +24,9 @@ class App extends Component {
           <Element name="about">
             <About />
           </Element>
-
-          {/*<Experience />*/}
+          <Element name="experience">
+            <Experience />
+          </Element>
         </main>
         1<br />
         1<br />
