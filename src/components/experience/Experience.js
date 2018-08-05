@@ -4,6 +4,8 @@ import React from "react";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome"
 import faBriefcase from "@fortawesome/fontawesome-free-solid/faBriefcase";
 import faMapMarkerAlt from "@fortawesome/fontawesome-free-solid/faMapMarkerAlt";
+import faGraduationCap from "@fortawesome/fontawesome-free-solid/faGraduationCap";
+import faBirthdayCake from "@fortawesome/fontawesome-free-solid/faBirthdayCake";
 
 import './Experience.css';
 // https://stephanemonnot.com/en/resume.html
@@ -25,11 +27,11 @@ export default class Experience extends React.Component {
               <h4>Software Engineer</h4>
               <h5>
                 <a href="https://snapcart.global/" target="_blank" className="text-primary">Snapcart</a>
-                <span className="text-muted">Offline shopping analytics</span>
+                <span>Offline shopping analytics</span>
               </h5>
-              <div className="text-warning location"><FontAwesomeIcon icon={faMapMarkerAlt} /> Remotely</div>
+              <div className="location"><FontAwesomeIcon icon={faMapMarkerAlt} /> Remotely</div>
               <p>
-                PHP, MySQL, Symfony 3
+                PHP 7, MySQL, Symfony 3, Elasticsearch, Redis
                 <br />
                 AWS, Docker, Konga
               </p>
@@ -45,7 +47,7 @@ export default class Experience extends React.Component {
                 <a href="https://netology.ru/" target="_blank">Netology</a>
                 <span>Internet University</span>
               </h5>
-              <div className="text-warning location"><FontAwesomeIcon icon={faMapMarkerAlt} /> Remotely</div>
+              <div className="location"><FontAwesomeIcon icon={faMapMarkerAlt} /> Remotely</div>
               <p>
                 PHP webinars, checking student's tasks.
               </p>
@@ -53,70 +55,121 @@ export default class Experience extends React.Component {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date="2017 - 2018"
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              iconStyle={{ background: '#99CCFF', color: '#fff' }}
               icon={<FontAwesomeIcon icon={faBriefcase} className="experience-icon" />}
             >
               <h4>Senior PHP Developer</h4>
               <h5>
-                <a href="">Aventus Group</a>
+                <a href="https://www.aventusgroup.com/" target="_blank">Aventus Group</a>
                 <span>Financial service</span>
               </h5>
-              <div className="text-warning location"><FontAwesomeIcon icon={faMapMarkerAlt} /> Lithuania, Vilnius</div>
+              <div className="location"><FontAwesomeIcon icon={faMapMarkerAlt} /> Lithuania, Vilnius</div>
               <p>
-                PHP, MySQL, Symfony 3/4
+                PHP 7, MySQL, Symfony 3/4
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="2006 - 2008"
-              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-              icon={<faFacebook />}
+              date="2016 - 2017"
+              iconStyle={{ background: '#99CCFF', color: '#fff' }}
+              icon={<FontAwesomeIcon icon={faBriefcase} className="experience-icon" />}
             >
-              <h3 className="vertical-timeline-element-title">Web Designer</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <h4>DevOps, PHP Team Lead</h4>
+              <h5>
+                <a href="https://payever.de/" target="_blank">Payever</a>
+                <span>An open commerce platform</span>
+              </h5>
+              <div className="location"><FontAwesomeIcon icon={faMapMarkerAlt} /> Remotely</div>
               <p>
-                User Experience, Visual Design
+                PHP 5/7, Symfony 2/3, MySQL, PHPUnit, Behat, Elasticsearch, Docker, Kubernetes, Capistrano
               </p>
             </VerticalTimelineElement>
+
             <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              date="April 2013"
-              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-              icon={<faFacebook />}
+              className="vertical-timeline-element--work"
+              date="2015 - 2016"
+              iconStyle={{ background: '#99CCFF', color: '#fff' }}
+              icon={<FontAwesomeIcon icon={faBriefcase} className="experience-icon" />}
             >
-              <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-              <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+              <h4>Senior PHP Developer</h4>
+              <h5>
+                <a href="https://www.lazada.com/" target="_blank">Lazada (Alibaba)</a>
+                <span>The number-one online shopping and selling destination in Asia</span>
+              </h5>
+              <div className="location"><FontAwesomeIcon icon={faMapMarkerAlt} /> Hồ Chí Minh, Vietnam</div>
               <p>
-                Strategy, Social Media
+                PHP 5/7, Symfony 2/3, MySQL, PHPUnit, Behat, Elasticsearch, Docker, Kubernetes, Capistrano
               </p>
             </VerticalTimelineElement>
+
             <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              date="November 2012"
-              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-              icon={<faFacebook />}
+              className="vertical-timeline-element--work"
+              date="2013 - 2015"
+              iconStyle={{ background: '#99CCFF', color: '#fff' }}
+              icon={<FontAwesomeIcon icon={faBriefcase} className="experience-icon" />}
             >
-              <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-              <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+              <h4>PHP Team Lead</h4>
+              <h5>
+                <a href="https://ru.wikipedia.org/wiki/Enter_%D0%A1%D0%B2%D1%8F%D0%B7%D0%BD%D0%BE%D0%B9" target="_blank">Enter</a>
+                <span>Multichannel retail company</span>
+              </h5>
+              <div className="location"><FontAwesomeIcon icon={faMapMarkerAlt} /> Moscow, Russia</div>
               <p>
-                Creative Direction, User Experience, Visual Design
+                PHP 5, sphinxseach, Zend Framework 1, Symfony 2, Capistano, PostgresSQL, MySQL
               </p>
             </VerticalTimelineElement>
+
+
             <VerticalTimelineElement
-              className="vertical-timeline-element--education"
-              date="2002 - 2006"
-              iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-              icon={<faFacebook />}
+              className="vertical-timeline-element--work"
+              date="2008 - 2013"
+              iconStyle={{ background: '#99CCFF', color: '#fff' }}
+              icon={<FontAwesomeIcon icon={faBriefcase} className="experience-icon" />}
             >
-              <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-              <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+              <h4>PHP/JS Developer</h4>
+              <h5>
+                <a href="http://www.avenuemedia.ru/" target="_blank">Enter</a>
+                <span>Web Studio.</span>
+              </h5>
+              <div className="location"><FontAwesomeIcon icon={faMapMarkerAlt} /> Moscow, Russia</div>
               <p>
-                Creative Direction, Visual Design
+                PHP 5, MySQL, MSSQL Capistrana, sphinxsearch
               </p>
             </VerticalTimelineElement>
+
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="2002 - 2008"
+              iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+              icon={<FontAwesomeIcon icon={faGraduationCap} className="education-icon" />}
+            >
+              <h5>
+                <a href="http://misis.ru/" target="_blank">MISIS</a>
+                <span>National University of Science and Technology</span>
+              </h5>
+              <div className="location"><FontAwesomeIcon icon={faMapMarkerAlt} /> Moscow, Russia</div>
+              <p>
+                Material sience, maths
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="1999 - 2002"
+              iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+              icon={<FontAwesomeIcon icon={faGraduationCap} className="education-icon" />}
+            >
+              <h5>
+                <a href="http://s28.zp.ua/" target="_blank">Gymnasium 28</a>
+              </h5>
+              <div className="location"><FontAwesomeIcon icon={faMapMarkerAlt} /> Zaporozhye, Ukraine</div>
+            </VerticalTimelineElement>
+
+
             <VerticalTimelineElement
               iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-              icon={<faFacebook />}
+              icon={<FontAwesomeIcon icon={faBirthdayCake} className="experience-icon" />}
             />
           </VerticalTimeline>
         </div>
