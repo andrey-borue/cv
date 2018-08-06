@@ -36,10 +36,24 @@ export default class About extends React.Component {
             </div>
             <div className="col-8">
               <Slide right>
-              <p>
-                Hi, my name is Andrey and  I'm an <strong>software engineer</strong> with
-                work <strong>experience</strong> of more than <strong>10 years</strong>.
-              </p>
+                <h5>Andrey Boryu</h5>
+                <p>Full-stack web engineer</p>
+                <p>
+                  An <strong>software engineer</strong> with
+                  work <strong>experience</strong> of more than <strong>10 years</strong>.
+                </p>
+                <p>
+                  Skilled in PHP, Javascript, has to work with Golang, Ruby and Python.
+                </p>
+                <p>
+                  Evangelist of full automated testing, continuous integration and continuous delivery.
+                </p>
+                <p>
+                  I have experience working with projects that are being developed from scratch, and in large high-load projects.
+                </p>
+                <p>
+                  My hobbies are traveling, scuba diving, sailing, hiking. I like to explore the world, to find new impressions and always learn something new.
+                </p>
               </Slide>
             </div>
           </div>
